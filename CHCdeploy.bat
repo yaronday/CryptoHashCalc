@@ -3,17 +3,13 @@ setlocal
 
 echo === CryptoHashCalc Deployment Script ===
 
-REM set "SRC=C:\GitHubWS\WinFormApps\CryptoHashCalc\bin\Release"
-
 set "SRC=%~dp0bin\Release"
-
 
 set "DEST=C:\CryptoHashCalc"
 
 echo Source:      %SRC%
 echo Destination: %DEST%
 echo.
-
 
 if not exist "%SRC%" (
     echo ERROR: Source directory does not exist.
@@ -26,10 +22,8 @@ if not exist "%DEST%" (
     mkdir "%DEST%"
 )
 
-echo Copying .exe files...
+echo Copying files...
 copy /Y "%SRC%\*.exe" "%DEST%\" >nul
-
-echo Copying .dll files...
 copy /Y "%SRC%\*.dll" "%DEST%\" >nul
 
 echo.
