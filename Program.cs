@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
@@ -170,7 +171,9 @@ namespace CryptoHashCalc
 
         private static void PrintVersion()
         {
-            var ver = typeof(Program).Assembly.GetName().Version?.ToString() ?? "1.0.0.0";
+            var ver = FileVersionInfo.GetVersionInfo(typeof(Program).
+                Assembly.Location).FileVersion;
+
             Console.WriteLine($"CryptoHashCalc version {ver}");
         }
 
