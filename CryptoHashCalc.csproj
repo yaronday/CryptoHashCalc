@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{988397E8-36A3-47AC-845C-E92E0A27398C}</ProjectGuid>
+    <ProjectGuid>{64FC3EA7-8A3B-4F64-8F91-5331DD6BE25F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>CryptoHashCalc</RootNamespace>
     <AssemblyName>CryptoHashCalc</AssemblyName>
