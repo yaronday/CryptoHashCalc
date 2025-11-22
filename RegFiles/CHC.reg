@@ -1,0 +1,56 @@
+Windows Registry Editor Version 5.00
+
+; Root submenu
+[HKEY_CLASSES_ROOT\*\shell\CryptoHashCalc]
+"MUIVerb"="Crypto Hash Calc"
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\*\shell\CryptoHashCalc\shell]
+
+; --- CRC32 ---
+[HKEY_CLASSES_ROOT\*\shell\CryptoHashCalc\shell\CRC32]
+"MUIVerb"="CRC32"
+[HKEY_CLASSES_ROOT\*\shell\CryptoHashCalc\shell\CRC32\command]
+@="\"C:\\CryptoHashCalc\\CryptoHashCalc.exe\" \"%1\" CRC32"
+
+; --- MD5 ---
+[HKEY_CLASSES_ROOT\*\shell\CryptoHashCalc\shell\MD5]
+"MUIVerb"="MD5"
+[HKEY_CLASSES_ROOT\*\shell\CryptoHashCalc\shell\MD5\command]
+@="\"C:\\CryptoHashCalc\\CryptoHashCalc.exe\" \"%1\" MD5"
+
+; --- SHA256 ---
+[HKEY_CLASSES_ROOT\*\shell\CryptoHashCalc\shell\SHA256]
+"MUIVerb"="SHA256"
+[HKEY_CLASSES_ROOT\*\shell\CryptoHashCalc\shell\SHA256\command]
+@="\"C:\\CryptoHashCalc\\CryptoHashCalc.exe\" \"%1\" SHA256"
+
+; --- SHA384 ---
+[HKEY_CLASSES_ROOT\*\shell\CryptoHashCalc\shell\SHA384]
+"MUIVerb"="SHA384"
+[HKEY_CLASSES_ROOT\*\shell\CryptoHashCalc\shell\SHA384\command]
+@="\"C:\\CryptoHashCalc\\CryptoHashHash.exe\" \"%1\" SHA384"
+
+; --- SHA512 ---
+[HKEY_CLASSES_ROOT\*\shell\CryptoHashCalc\shell\SHA512]
+"MUIVerb"="SHA512"
+[HKEY_CLASSES_ROOT\*\shell\CryptoHashCalc\shell\SHA512\command]
+@="\"C:\\CryptoHashCalc\\CryptoHashCalc.exe\" \"%1\" SHA512"
+
+; --- SHA3-256 ---
+[HKEY_CLASSES_ROOT\*\shell\CryptoHashCalc\shell\SHA3-256]
+"MUIVerb"="SHA3-256"
+[HKEY_CLASSES_ROOT\*\shell\CryptoHashCalc\shell\SHA3-256\command]
+@="\"C:\\CryptoHashCalc\\CryptoHashCalc.exe\" \"%1\" \"SHA3-256\""
+
+; --- SHA3-384 ---
+[HKEY_CLASSES_ROOT\*\shell\CryptoHashCalc\shell\SHA3-384]
+"MUIVerb"="SHA3-384"
+[HKEY_CLASSES_ROOT\*\shell\CryptoHashCalc\shell\SHA3-384\command]
+@="\"C:\\CryptoHashCalc\\CryptoHashCalc.exe\" \"%1\" \"SHA3-384\""
+
+; --- SHA3-512 ---
+[HKEY_CLASSES_ROOT\*\shell\CryptoHashCalc\shell\SHA3-512]
+"MUIVerb"="SHA3-512"
+[HKEY_CLASSES_ROOT\*\shell\CryptoHashCalc\shell\SHA3-512\command]
+@="\"C:\\CryptoHashCalc\\CryptoHashCalc.exe\" \"%1\" \"SHA3-512\""
