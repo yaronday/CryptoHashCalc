@@ -41,10 +41,8 @@ namespace CryptoHashCalc
                 }
             }
 
-            // Filter out nulls (removing --cli)
             args = Array.FindAll(args, a => a != null);
 
-            // --- Handle flags that require console output ---
             if (HasArg(args, "--version", "-v"))
             {
                 EnsureConsole();

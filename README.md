@@ -107,9 +107,9 @@ Removes the entire submenu and associated commands.
 
 ---
 
-## Deployment
+## Deployment and Setup
 
-A deployment script is included to copy required files from the Release build output directory to a target installation directory.
+A step by step flow can be found [here](RegFiles/SETUP_FLOW.md).
 
 Typical runtime layout:
 

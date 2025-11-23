@@ -3,9 +3,9 @@ setlocal
 
 echo === CryptoHashCalc Deployment Script ===
 
-set "SRC=%~dp0bin\Release"
+setx CRYPTOHASHCALC_PATH "C:\CryptoHashCalcNew"  REM add /M for all users (requires Admin)
 
-set "DEST=C:\CryptoHashCalc"
+set "SRC=%~dp0bin\Release"
 
 echo Source:      %SRC%
 echo Destination: %DEST%
