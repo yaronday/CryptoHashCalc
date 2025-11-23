@@ -386,3 +386,6 @@ InteropTests/NativeTests/out
 **/ScratchProject/
 **/ScratchProjectWithInternals/
 *.txt
+
+.RegFiles/CHCregCfgReady.reg
+/RegFiles/CHCregCfgReady.reg
